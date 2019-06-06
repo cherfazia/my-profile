@@ -1,0 +1,25 @@
+.tcard{
+	font-size: 40px;
+}
+.brand-logo{
+	margin-left: 50px;
+}
+html{
+	background-color: white;
+	scroll-behavior: smooth;
+}
+.nav-wrapper{
+	background-color: #c91a40;
+}
+#button {
+	background-color: #c91a40;
+}
+#photo{
+	font-size: 3rem;
+}
+#link{
+	color: #595860;
+}
+#azia{
+	font-size: 40px
+}
