@@ -1,74 +1,86 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Azia's portfolio</title>
-		<meta charset=utf-8>
-		<meta name=viewport content="width=device-width, initial-scale=1">
-		<script src="js/materialize.min.js"></script>
-		<script src="js/script.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="image/bookmark.ico" type="image/x-icon"/>
-	</head>
-
-	<body>
-    <div class="container">
-			<nav id="t">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Portfolio</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="https://www.facebook.com/Azia.Cherf">Facebook</a></li>
-              <li><a href="https://www.instagram.com/cherfazia/?hl=fr">Instagram</a></li>
-              <li><a href="https://www.linkedin.com/in/azia-cherfaoui-869037183/">LinkedIn</a></li>
-            </ul>
+<!doctype html>
+<html style="scroll-behavior: smooth;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>MakeUpLine</title>
+  </head>
+  <body>
+    <ul class="nav nav-pills m-2 bg">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Présentation</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle ml-2 mr-2 bg-secondary text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Produits</a>
+          <a class="dropdown-item" href="#">Avis</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="mailto:azia.cherfaoui@edu.devinci.fr">Contact</a>
         </div>
-      </nav>
-  			<div class="col s12 m7">
-          <h2 id="azia" class="header center">Azia</h2>
-          <div class="card horizontal">
-            <div class="card-image">
-              <img src="image/aziou.JPG">
-            </div>
-            <div class="card-stacked">
-              <div class="card-content">
-              <p>Bonjour et bienvenue sur mon portfolio. Vous y trouverez les liens de mes réseaux sociaux ainsi que un résumé de mes passions.</p>
-            </div>
-            <div class="card-action">
-              <a href="https://www.facebook.com/Azia.Cherf">Facebook</a></li>
-              <a href="https://www.instagram.com/cherfazia/?hl=fr">Instagram</a></li>
-              <a href="https://www.linkedin.com/in/azia-cherfaoui-869037183/">LinkedIn</a></li>
-            </div>
-          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active bg-secondary" href="#">Découvrir la gamme</a>
+      </li>
+    </ul>
+    <div class="jumbotron bg-danger text-white rounded-0">
+      <h1 class="display-4">Bienvenue sur MakeUpLine</h1>
+      <p class="lead">MakeUpLine est une marque de maquillage éco-responsable, proposant des produits de qualité et accessibles à tous les budgets.</p>
+      <hr class="my-4">
+      <p><i>"La meilleure chose est d'avoir un aspect naturel, mais pour avoir un aspect naturel, il faut du maquillage."</i><br>Calvin Klein</p>
+      <a class="btn text-white btn-lg bg-secondary" href="#down" role="button">En apprendre plus</a>
     </div>
-  </div>
-
-      <ul id="down" class="collection">
-        <li class="collection-item avatar">
-          <i class="material-icons circle blue">cake</i>
-          <span class="title">Cuisine</span>
-          <p>J'adore cuisiner<br>
-            Ma nourriture préférée est la nouriture chinoise
-          </p>
-        </li>
-        <li class="collection-item avatar">
-          <i class="material-icons circle red">rowing</i>
-          <span class="title">Sports</span>
-          <p>Je pratique la natation ainsi que l'équitation<br>
-          </p>
-        </li>
-        <li class="collection-item avatar">
-          <i class="material-icons circle green">monochrome_photos</i>
-          <span class="title">Voyages</span>
-          <p>J'adore voyager. Cela me permet de découvrir de nouveaux endroits et de nouvelles cultures. <br>
-          </p>
-        </li>
-      </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="col p-0 m-2 w-100 mx-auto">
+            <div id="down" class="card w-100 bg-danger text-white" style="width: 18rem;">
+              <img src="https://cache.marieclaire.fr/data/photo/w1000_ci/1bi/rouges-a-levres.jpg" class="card-img-top" alt="Lipstick">
+              <div class="card-body">
+                <h5 class="card-title">Rouge à lèvres</h5>
+                <p class="card-text">L'essentiel beauté</p>
+                <a href="commande.html" class="btn bg-secondary text-white">Commander</a>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="col">
+          <div class="col p-0 m-2 w-100 mx-auto">
+            <div id="down" class="card w-100 bg-danger text-white" style="width: 18rem;">
+              <img src="https://www.boutique-majama.fr/Files/23099/Img/23/VIGNETTE-d-introduction-PAN-Poudre.jpg" class="card-img-top" alt="Poudre">
+              <div class="card-body">
+                <h5 class="card-title">Poudres</h5>
+                <p class="card-text">Nos poudres sont composées à 100% d'ingédients d'origine naturelle</p>
+                <a href="commande.html" class="btn bg-secondary text-white">Commander</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col p-0 m-2 w-100 mx-auto">
+            <div id="down" class="card w-100 bg-danger text-white" style="width: 18rem;">
+              <img src="https://static1.bleulibellule.com/1474-large_default/palette-de-12-fards-a-paupieres-velvet-peach.jpg" class="card-img-top" alt="Palette">
+              <div class="card-body">
+                <h5 class="card-title">Palettes</h5>
+                <p class="card-text">Nous proposons différents gradients de couleurs pour toujours plus de possibilités</p>
+                <a href="commande.html" class="btn bg-secondary text-white">Commander</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-	</body>
-<html>
+    </div>
+    
+    
+    <div class="typeform-widget" data-url="https://cherfaouiazia.typeform.com/to/UugyCU" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=UugyCU&utm_source=typeform.com-14161829-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
